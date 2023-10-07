@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary-dark: #a98d60;
+    --primary-light: #90e0ef;
+    --primary-neutral : #84a59d;
+  }
+
+@layer base {
+  #input input{
+    width: 60px;
+    padding: 3px;
+    height: 60px;
+    border: 0; 
+    outline: 0;
+    margin: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    box-shadow: -4px -4px 6px -1px #84a59d, 3px 3px 6px -1px #84a59d;
+  }
+  .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 20px;
+    box-shadow: none;
+    background-color: transparent;
+  }
+  input.normal{
+    background-color: #293241;
+  }
+  input.operator{
+    color: var(--primary-light);
+  }
+  #input input.equal{
+    width: 125px;
+  }
+  .button{
+    display: flex;
+    flex-direction: row;
+    box-shadow: #a98d60;
+  }
+  form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 4px 0;
+    border: 2px solid #84a59d;
+  }
+}
