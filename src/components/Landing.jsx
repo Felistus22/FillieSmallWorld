@@ -8,10 +8,10 @@ function Landing() {
         <div className='flex justify-center text-lg'>
             <div className='p-6 text-[var(--primary-light)]'><Link to='/'>FILLIESMALLWORLD</Link></div>
             <div className='grid grid-flow-col gap-5 p-6 text-2xl justify-between'>
-                <Link to='/quiz'>Attempt A Quiz</Link> 
                 <Link to='/quotes'>Random Quotes</Link>
                 <Link to='/calc'>Calculator</Link> 
                 <Link to='/weather'>Weather App</Link>
+                <Link to='/qwiz'>Try A Qwiz</Link>
             </div>
         </div>
     </div>

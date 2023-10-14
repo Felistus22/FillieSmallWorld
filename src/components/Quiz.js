@@ -12,8 +12,8 @@ function App() {
       <h2>Jog your mind</h2>
       <div className='quizList'>
         
-            <QuizItem
-            Q={currentQuiz.Q} correctanswer={currentQuiz.correctanswer} choices={currentQuiz.choices} />
+        <QuizItem
+        Q={currentQuiz.Q} correctanswer={currentQuiz.correctanswer} choices={currentQuiz.choices} />
           
       </div>
     </div>
